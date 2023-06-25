@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GameVerTest"
+        tools:targetApi="31">
+        <activity
+            android:name=".TestSelect"
+            android:exported="false" />
+        <activity
+            android:name=".DogaaTest2"
+            android:exported="false" />
+        <activity
+            android:name=".Dogaa2"
+            android:exported="false" />
+        <activity
+            android:name=".DogaTest2"
+            android:exported="false" />
+        <activity
+            android:name=".Addpoint"
+            android:exported="false" />
+        <activity
+            android:name=".MagicaTest5"
+            android:exported="false" />
+        <activity
+            android:name=".MagicaTest4"
+            android:exported="false" />
+        <activity
+            android:name=".MagicaTest3"
+            android:exported="false" />
+        <activity
+            android:name=".MagicaTest2"
+            android:exported="false" />
+        <activity
+            android:name=".MagicaTest1"
+            android:exported="false" />
+        <activity
+            android:name=".SlimeTest5"
+            android:exported="false" />
+        <activity
+            android:name=".SlimeTest4"
+            android:exported="false" />
+        <activity
+            android:name=".SlimeTest3"
+            android:exported="false" />
+        <activity
+            android:name=".CharChoose"
+            android:exported="false" />
+        <activity
+            android:name=".SlimeTest1"
+            android:exported="false" />
+        <activity
+            android:name=".databaseroom"
+            android:exported="false" />
+        <activity
+            android:name=".DBroom"
+            android:exported="false" />
+        <activity
+            android:name=".itemchoose1"
+            android:exported="false" />
+        <activity
+            android:name=".chardata"
+            android:exported="false" />
+        <activity
+            android:name=".Store"
+            android:exported="false" />
+        <activity
+            android:name=".SlimeTest2"
+            android:exported="false" />
+        <activity
+            android:name=".GameTest"
+            android:exported="false" />
+        <activity
+            android:name=".Game5"
+            android:exported="false" />
+        <activity
+            android:name=".Game4"
+            android:exported="false" />
+        <activity
+            android:name=".Game3"
+            android:exported="false" />
+        <activity
+            android:name=".Game2"
+            android:exported="false" />
+        <activity
+            android:name=".Game1"
+            android:exported="false" />
+        <activity
+            android:name=".getScore"
+            android:exported="false" />
+        <activity
+            android:name=".postScore"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
